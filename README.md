@@ -1,30 +1,48 @@
-# React_DesiQna
+# React DesiQna
 
-Source code and project resources for React_DesiQna.
+**Portfolio project** · A React/Vite Q&A-style interface project.
 
 ## Overview
 
-This repository contains the source code and resources for **React_DesiQna**.
+A React/Vite Q&A-style interface project.
 
-## Technologies
+## Technology Stack
 
-- CSS
-- HTML
-- JavaScript
+- `Node.js`
+- `React`
+- `Vite`
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-## Getting Started
+## How the Repository Works
 
-```bash
-git clone https://github.com/Kanishq10/React_DesiQna.git
-cd React_DesiQna
+```mermaid
+flowchart LR
+    N0["User interaction<br/> DOM or React event"]
+    N1["State update<br/> Client-side logic"]
+    N0 --> N1
+    N2["View update<br/> Render the new result"]
+    N1 --> N2
 ```
 
-Review the project files and configuration to install dependencies and start the application.
+| Stage | Responsibility |
+|---|---|
+| **User interaction** | DOM or React event |
+| **State update** | Client-side logic |
+| **View update** | Render the new result |
 
-## Repository Contents
+## Concepts Covered
+
+- Component-based UI
+- State and props
+- Event handling
+- Reusable layout
+- Client-side rendering
+
+## Repository Map
 
 - `.gitignore`
-- `README.md`
 - `eslint.config.js`
 - `index.html`
 - `package-lock.json`
@@ -33,6 +51,10 @@ Review the project files and configuration to install dependencies and start the
 - `src`
 - `vite.config.js`
 
-## Contributing
+## Recruiter Summary
 
-Contributions are welcome. Fork the repository, create a feature branch, and open a pull request.
+This repository demonstrates practical implementation skills, repository organization, and an end-to-end understanding of the project workflow. It is suitable as a focused example of applied software or data work.
+
+---
+
+<sub>Documentation is concise and project-focused; source code was not modified.</sub>
